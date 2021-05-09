@@ -1,0 +1,74 @@
+
+/* styles for cards */
+.cards{
+    /* background-color: whitesmoke; */
+    display: flex;
+    margin: 2rem 1rem;
+    max-width: 50vw;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.fbCard{
+    text-align: center;
+    padding: 2rem;
+    width: 50%;
+    background-color: aliceblue;
+    border-right: 1px solid gray;
+}
+.googleCard{
+    text-align: center;
+    padding: 2rem;
+    width: 50%;
+}
+.bottomInfo{
+    background-color: lightsteelblue;
+    padding: 0.2rem;
+    width: fit-content;
+    border-radius: 2px;
+}
+.arrowIcon{
+    background-color: rgb(255, 0, 136);
+    padding: 0rem 0.1rem 0.1rem 0rem;
+    margin-left: 0.1rem;
+}
+
+/* styles for chart */
+
+.impressionInfo{
+    background-color: lightsteelblue;
+    padding: 0.2rem;
+    width: fit-content;
+    border-radius: 2px;
+}
+.arrowUpward{
+    background-color: rgb(123, 255, 0);
+    padding: 0rem 0.1rem 0.1rem 0rem;
+    margin-left: 0.1rem;
+}
+.lineGraph{
+    width: 40vw;
+}
+.chartContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* styles for bottom cards */
+.bottomCards{
+    /* background-color: whitesmoke; */
+    display: flex;
+    margin: 2rem 1rem;
+    max-width: 90vw;
+}
+.card{
+    text-align: center;
+    padding: 2rem;
+    width: 32%;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 0.5rem;
+}
