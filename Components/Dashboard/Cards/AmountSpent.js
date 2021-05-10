@@ -13,7 +13,7 @@ const AmountSpent = () => {
                     <div className={styles.bottomInfo}> -08% 
                         <span className={styles.arrowIcon}> <FiArrowDownRight size={20} color={"white"} /> </span> 
                     </div>
-                    <span style={{marginLeft: "4px"}}> than previous period</span>
+                    <span style={{marginLeft: "4px", fontSize: "15px"}}> than previous period</span>
                 </div>
             </div>
             <div className={styles.googleCard}>
@@ -24,7 +24,7 @@ const AmountSpent = () => {
                     <div className={styles.bottomInfo}> -08% 
                         <span className={styles.arrowIcon}> <FiArrowDownRight size={20} color={"white"} /> </span> 
                     </div>
-                    <span style={{marginLeft: "4px"}}> than previous period</span>
+                    <span style={{marginLeft: "4px", fontSize: "15px"}}> than previous period</span>
                 </div>
             </div>
         </div>

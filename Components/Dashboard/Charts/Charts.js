@@ -7,7 +7,7 @@ const Charts = () => {
     return (
         <div className={styles.chartContainer}>
             <div>
-                <h4>Impression</h4>
+                <h4 style={{marginTop: "30px"}}>Impression</h4>
                 <div style={{display: "flex", justifyContent: "left", alignItems: "center", marginTop: "10px"}}>
                     <div className={styles.impressionInfo}> +50% 
                         <span className={styles.arrowUpward}> <FiArrowUpRight size={20} color={"white"} /> </span> 
@@ -17,8 +17,8 @@ const Charts = () => {
                 <br />
                 <LineGraph />
             </div>
-            <div style={{marginLeft: "4rem"}}>
-                <h4>Engagement</h4>
+            <div >
+                <h4 style={{marginTop: "30px"}}>Engagement</h4>
                 <div style={{display: "flex", justifyContent: "left", alignItems: "center", marginTop: "10px"}}>
                     <div className={styles.impressionInfo}> +50% 
                         <span className={styles.arrowUpward}> <FiArrowUpRight size={20} color={"white"} /> </span> 
