@@ -1,0 +1,41 @@
+.searchBox{
+    width: 25vw;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 2px solid black;
+}
+.searchBox:focus{
+    background-color: whitesmoke;
+    outline: none;
+}
+.suggestionsContainer{
+    margin: 1rem 0rem;
+    border: 1px solid #eaeaea;
+    width: 25vw;
+    max-height: 15rem;
+    overflow-y: auto;
+}
+.listStyle{
+    background-color: #82CDFF;
+    list-style-type: none;
+    border-radius: 4px;
+    padding: 0.3rem 1rem;
+    margin: 1rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.suggestionsContainer > li:nth-child(odd){
+    background-color: thistle;
+}
+
+.iconStyle{
+    color: white;
+    border-radius: 3px;
+    background-color: #188EDD;
+    position: relative;
+    right: 30px;
+    bottom: 3px;
+    cursor: pointer;
+}

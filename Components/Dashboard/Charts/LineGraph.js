@@ -2,11 +2,11 @@ import React from 'react';
 import styles from '../dashboard.module.css';
 import {Line} from 'react-chartjs-2';
 
-const LineGraph = () => {
+const LineGraph = ({labels, data}) => {
 
 
     const dataForGraph = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: labels,
         datasets: [
           {
             label: "data",
@@ -14,7 +14,7 @@ const LineGraph = () => {
             borderColor: ["rgba(153, 102, 255, 1)"],
             borderWidth: 1,
             fill: 'origin',
-            data: [65, 59, 80, 81, 56, 55, 40]
+            data: data
           }
         ],
       };

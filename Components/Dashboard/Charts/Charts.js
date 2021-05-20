@@ -3,7 +3,8 @@ import styles from '../dashboard.module.css';
 import {FiArrowUpRight} from 'react-icons/fi';
 import LineGraph from './LineGraph';
 
-const Charts = () => {
+const Charts = ({data}) => {
+
     return (
         <div className={styles.chartContainer}>
             <div>
@@ -15,7 +16,9 @@ const Charts = () => {
                     <span style={{marginLeft: "4px"}}> than previous period</span>
                 </div>
                 <br />
-                <LineGraph />
+                <LineGraph labels={data.labels}
+                    data={data.impressionData} 
+                />
             </div>
             <div >
                 <h4 style={{marginTop: "30px"}}>Engagement</h4>
@@ -26,7 +29,9 @@ const Charts = () => {
                     <span style={{marginLeft: "4px"}}> than previous period</span>
                 </div>
                 <br />
-                <LineGraph />
+                <LineGraph labels={data.labels}
+                    data={data.engagementData} 
+                />
             </div>
         </div>
     );
